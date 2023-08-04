@@ -1,0 +1,5 @@
+TO RUN ON WEB
+
+./gradlew html:superDev
+http://localhost:8080/index.html
+use recompile bookmark
