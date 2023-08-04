@@ -3,3 +3,11 @@ TO RUN ON WEB
 ./gradlew html:superDev
 http://localhost:8080/index.html
 use recompile bookmark
+
+TO RUN ON DESKTOP
+./gradlew desktop:run
+
+TO RUN ON ANDROID
+set environmental variable ANDROID_HOME
+set ANDROID_HOME=<.../Android/Sdk>
+./gradlew android:installDebug android:run
