@@ -9,7 +9,9 @@ public class DesktopLauncher {
 	public static void main (String[] arg) {
 		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
 		config.setForegroundFPS(60);
-		config.setTitle("gdx-gamb2");
+		config.setTitle("Gambeson!");
+		config.useVsync(true);
+		config.setWindowedMode(1920,1080);
 		new Lwjgl3Application(new GdxGamb2(), config);
 	}
 }
