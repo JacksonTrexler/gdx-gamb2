@@ -16,7 +16,7 @@ public class GdxGamb2 extends Game {
 	}
 
 	public void render(){
-
+		super.render();
 	}
 
 	public void dispose() {
