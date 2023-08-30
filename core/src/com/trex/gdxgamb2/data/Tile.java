@@ -1,4 +1,4 @@
-package com.trex.gdxgamb2;
+package com.trex.gdxgamb2.data;
 
 public class Tile {
     String name;

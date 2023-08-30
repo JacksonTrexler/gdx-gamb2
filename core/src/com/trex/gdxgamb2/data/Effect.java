@@ -1,8 +1,12 @@
-package com.trex.gdxgamb2;
+package com.trex.gdxgamb2.data;
 
 public class Effect {
     String name;
     String[] tags;
+
+    Effect(){
+
+    }
 
     Effect(String name){
         this.name = name;
